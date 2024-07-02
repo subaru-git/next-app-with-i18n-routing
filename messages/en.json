@@ -1,8 +1,16 @@
 {
   "Index": {
-    "title": "Welcome to the index page"
+    "title": "Welcome to the index page",
+    "seo": {
+      "title": "Index Page",
+      "description": "This is the index page"
+    }
   },
   "Practice": {
-    "title": "Practice"
+    "title": "Practice",
+    "seo": {
+      "title": "Practice Page",
+      "description": "This is the practice page"
+    }
   }
 }

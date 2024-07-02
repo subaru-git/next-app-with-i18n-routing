@@ -1,8 +1,16 @@
 {
   "Index": {
-    "title": "インデックスページへようこそ"
+    "title": "インデックスページへようこそ",
+    "seo": {
+      "title": "インデックスページ",
+      "description": "これはインデックスページです"
+    }
   },
   "Practice": {
-    "title": "練習"
+    "title": "練習",
+    "seo": {
+      "title": "練習ページ",
+      "description": "これは練習ページです"
+    }
   }
 }

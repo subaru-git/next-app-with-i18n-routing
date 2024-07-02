@@ -1,5 +1,18 @@
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Link from "next/link";
+
+export const generateMetadata = async ({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) => {
+  const t = await getTranslations({ locale, namespace: "Index.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+};
 
 const Index = () => {
   const t = useTranslations("Index");
